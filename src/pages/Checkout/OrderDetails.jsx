@@ -66,7 +66,7 @@ export const OrderDetails = () => {
           ? totalPrice - discountedCouponPrice
           : totalPrice) * 100,
       currency: "INR",
-      name: "Essence",
+      name: "Budget Treasures",
       description: "Thank you for shopping with us",
       handler: async function (response) {
         const orderId = uuid().toString().split("-")[0];

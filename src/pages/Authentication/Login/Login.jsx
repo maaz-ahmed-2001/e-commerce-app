@@ -129,7 +129,7 @@ const Login = () => {
             </div>
 
             <div className="card-action">
-              <span>New to Essence? </span>
+              <span>New here? </span>
               <Link to="/signup" className="link">
                 SignUp
               </Link>
