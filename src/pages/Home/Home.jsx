@@ -17,14 +17,19 @@ const Home = () => {
       <section className="main-section">
         <div className="hero">
           <div className="hero-img">
-            <img className="resp-img" src="/assets/hero-img.jpg" alt="Image" />
+            <img
+              className="resp-img"
+              src="https://mecaluxcom.cdnwm.com/blog/img/e-commerce-logistics.1.1.jpg"
+              alt="Image"
+            />
+            <div className="blur-effect"></div>
           </div>
 
           <div className="hero-content">
             <div>
-              Everything's better with a bit of fragrance
+              Everything's better with a bit of honesty
               <p className="sub-title">
-                Choose from our wide variety of fragrances
+                Choose from our wide variety of original and genuine products
               </p>
               <Link to="/products" className="hero-action">
                 <button className="btn btn-primary">Shop Now</button>
@@ -68,7 +73,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="main-category">
+        {/* <div className="main-category">
           <div className="heading-2">Categories:</div>
 
           <div className="grid grid-three-col category-grid">
@@ -101,7 +106,7 @@ const Home = () => {
               );
             })}
           </div>
-        </div>
+        </div> */}
 
         <div className="featured-category">
           <div className="heading-2">Featured:</div>

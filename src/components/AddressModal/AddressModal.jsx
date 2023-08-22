@@ -3,12 +3,12 @@ import { useAddress } from "../../contexts/addressContext";
 import { useEffect } from "react";
 
 const dummyAddress = {
-  name: "Nandini Gandhi",
-  street: "18, Aazaad Colony",
-  city: "Surat",
-  state: "Gujarat",
+  name: "Unknown user",
+  street: "M.A Jinnah Road",
+  city: "Karachi",
+  state: "Sindh",
   zipcode: "360029",
-  country: "India",
+  country: "Pakistan",
   mobile: "9823500668",
 };
 

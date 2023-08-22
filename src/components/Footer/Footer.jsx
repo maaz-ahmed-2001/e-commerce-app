@@ -9,19 +9,24 @@ const Footer = () => {
     <footer className={`${showFilter ? "hide-div" : null}`}>
       <div className="about">
         <Link to="/" className="nav-brand">
-          Essence
+          Budget Treasures
         </Link>
 
-        <div className="text">Choose from our wide variety of fragrances</div>
+        <div className="text">
+          Choose from our wide variety of original and genuine products
+        </div>
 
         <div className="social">
-          <a href="https://github.com/himadri2110" target="_blank">
+          <a href="https://github.com/maaz-ahmed-2001" target="_blank">
             <i className="fa fa-github"></i>
           </a>
-          <a href="https://twitter.com/himadri2110" target="_blank">
+          <a href="https://twitter.com/" target="_blank">
             <i className="fa fa-twitter"></i>
           </a>
-          <a href="https://linkedin.com/in/himadri2110" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/maaz-ahmed-8110811bb/"
+            target="_blank"
+          >
             <i className="fa fa-linkedin"></i>
           </a>
         </div>
@@ -50,7 +55,7 @@ const Footer = () => {
           <i className="fa fa-phone"></i>+91 21200 21200
         </div>
         <div className="sub-heading e-mail">
-          <i className="fa fa-envelope"></i>support@essence.com
+          <i className="fa fa-envelope"></i>support@budgettreasures.com
         </div>
       </div>
     </footer>

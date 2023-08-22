@@ -7,6 +7,22 @@
   height: 500px;
   background-position: bottom;
 }
+.blur-effect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  bottom: 0;
+  z-index: -1;
+  background: rgb(0, 12, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 12, 36, 0.9668242296918768) 0%,
+    rgba(0, 0, 0, 0.6026785714285714) 44%,
+    rgba(0, 212, 255, 0) 100%
+  );
+}
 
 .hero-img img {
   position: absolute;
@@ -25,10 +41,12 @@
   font-weight: bold;
   display: flex;
   align-items: center;
+  color: #fff;
   margin: 2rem;
   padding: 1rem;
   max-width: 20ch;
   height: 100%;
+  z-index: 1;
 }
 
 .hero-content a {
@@ -36,7 +54,7 @@
 }
 
 .hero-content .sub-title {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-size: 1.2rem;
   font-weight: normal;
 }
