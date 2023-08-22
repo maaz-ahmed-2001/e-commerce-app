@@ -21,7 +21,7 @@ const CartCard = ({ product }) => {
           <Link to={`/products/${id}`}>{title}</Link>
 
           <div className="card-content">
-            <div className="price">&#8377; {price}</div>
+            <div className="price">Rs. {price}</div>
 
             <div className="card-quantity">
               Quantity:{" "}

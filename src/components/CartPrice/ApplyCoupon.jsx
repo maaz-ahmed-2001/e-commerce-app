@@ -29,7 +29,7 @@ const ApplyCoupon = ({ setShowCouponModal, totalPrice }) => {
               onChange={() => setSelectedCoupon(coupon)}
             />
             <p>
-              {coupon.name}: {coupon.discount}% off on orders above &#8377;
+              {coupon.name}: {coupon.discount}% off on orders above Rs.
               {coupon.minPrice}
             </p>
           </label>

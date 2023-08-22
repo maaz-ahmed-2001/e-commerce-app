@@ -3,6 +3,7 @@
 
 :root {
   --box-shadow: 2px 2px 2px 0 var(--bg-color);
+  --primary-color: #003377;
 }
 
 * {

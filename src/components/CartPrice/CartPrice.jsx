@@ -46,17 +46,17 @@ const CartPrice = () => {
             Price (<span className="quantity">{cartState.length}</span>{" "}
             <span>{cartState.length === 1 ? "item" : "items"}</span>)
           </div>
-          <div className="value">&#8377; {cartPrice.price}</div>
+          <div className="value">Rs. {cartPrice.price}</div>
         </div>
 
         <div className="price">
           <div className="text">Discount</div>
-          <div className="value">- &#8377; {cartPrice.discountInPrice}</div>
+          <div className="value">- Rs. {cartPrice.discountInPrice}</div>
         </div>
 
         <div className="price">
           <div className="text">Delivery Charges</div>
-          <div className="value">&#8377; {cartPrice.deliveryCharges}</div>
+          <div className="value">Rs. {cartPrice.deliveryCharges}</div>
         </div>
       </div>
 
@@ -64,7 +64,7 @@ const CartPrice = () => {
 
       <div className="total-price">
         <div className="text">Total Amount</div>
-        <div className="value">&#8377; {totalPrice}</div>
+        <div className="value">Rs. {totalPrice}</div>
       </div>
 
       <hr />
@@ -79,7 +79,7 @@ const CartPrice = () => {
               ></i>
               {selectedCoupon.name}
             </div>
-            <div className="coupon-price">- &#8377;{discountedCouponPrice}</div>
+            <div className="coupon-price">- Rs.{discountedCouponPrice}</div>
           </div>
 
           <hr />
@@ -87,7 +87,7 @@ const CartPrice = () => {
           <div className="grand-total">
             <div className="text">Grand Total</div>
             <div className="value">
-              &#8377; {totalPrice - discountedCouponPrice}
+              Rs. {totalPrice - discountedCouponPrice}
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ const CartPrice = () => {
       </button>
 
       <div className="discount-msg">
-        You will save &#8377;{" "}
+        You will save Rs.{" "}
         {cartPrice.discountInPrice +
           (discountedCouponPrice ? discountedCouponPrice : 0)}{" "}
         on this order

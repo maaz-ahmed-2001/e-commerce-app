@@ -26,7 +26,7 @@ const OrderList = () => {
 
               <div className="order-items">
                 <div className="item-name">Amount Paid:</div>
-                <div>&#8377;{amount}</div>
+                <div>Rs. {amount}</div>
               </div>
 
               <div className="order-items">
@@ -54,7 +54,7 @@ const OrderList = () => {
 
                         <div className="order-items">
                           <div className="item-name">Price:</div>
-                          <div>&#8377;{product.discountedPrice}</div>
+                          <div>Rs. {product.discountedPrice}</div>
                         </div>
 
                         <div className="order-items">

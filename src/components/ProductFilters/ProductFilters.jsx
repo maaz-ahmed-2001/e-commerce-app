@@ -50,12 +50,12 @@ const ProductFilters = () => {
       <div className="filters">
         <div className="filter-wrapper">
           <div className="filter-title">
-            Price: &#8377;{productState.priceRange}
+            Price: Rs. {productState.priceRange}
           </div>
           <div className="filter-value">
             <div className="filter-price">
-              <span>&#8377; 0</span>
-              <span> &#8377; 1500 </span>
+              <span>Rs. 0</span>
+              <span> Rs. 1500 </span>
             </div>
             <input
               type="range"

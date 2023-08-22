@@ -107,10 +107,10 @@ export const OrderDetails = () => {
         {cartState.map((cartItem) => (
           <div key={cartItem.id} className="item">
             <div>
-              {cartItem.title} (&#8377;{cartItem.price} x {cartItem.qty})
+              {cartItem.title} (Rs.{cartItem.price} x {cartItem.qty})
             </div>
 
-            <div>&#8377;{cartItem.price * cartItem.qty}</div>
+            <div>Rs.{cartItem.price * cartItem.qty}</div>
           </div>
         ))}
       </div>
@@ -120,13 +120,13 @@ export const OrderDetails = () => {
       <div className="order-items-wrapper">
         <div className="item">
           <div>Total Price</div>
-          <div>&#8377;{cartPrice.price}</div>
+          <div>Rs.{cartPrice.price}</div>
         </div>
 
         <div className="item">
           <div>Total Discount</div>
           <div>
-            &#8377;
+            Rs.
             {cartPrice.discountInPrice +
               (JSON.stringify(selectedCoupon) !== "{}"
                 ? discountedCouponPrice
@@ -136,13 +136,13 @@ export const OrderDetails = () => {
 
         <div className="item">
           <div>Delivery Charges</div>
-          <div>&#8377;49</div>
+          <div>Rs.49</div>
         </div>
 
         <div className="item">
           <div>Grand Total</div>
           <div>
-            &#8377;
+            Rs.
             {totalPrice -
               (JSON.stringify(selectedCoupon) !== "{}"
                 ? discountedCouponPrice

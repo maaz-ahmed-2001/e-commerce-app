@@ -72,10 +72,10 @@ const SingleProduct = () => {
                 <div className="card-content">
                   <div className="product-price">
                     <div className="price">
-                      &#8377; {currentProduct.discountedPrice}
+                      Rs. {currentProduct.discountedPrice}
                     </div>
                     <div className="previous-price">
-                      &#8377; {currentProduct.price}
+                      Rs. {currentProduct.price}
                     </div>
                   </div>
                   <div className="discount">{currentProduct.discount}% off</div>
