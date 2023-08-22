@@ -1,6 +1,6 @@
 ## E-Commerce Store
 
-[Budget Treasures](https://budget-treasures-store.netlify.app/) - Budget Treasures - an e-commerce store for selling genuine quality products
+[Essence](https://essence-store.netlify.app/) - Budget Treasures - an e-commerce store for selling genuine quality products
 
 https://user-images.githubusercontent.com/77036784/173244452-f585322e-8486-497a-91df-7fcf2078422e.mp4
 
