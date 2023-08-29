@@ -55,14 +55,14 @@ const ProductFilters = () => {
           <div className="filter-value">
             <div className="filter-price">
               <span>Rs. 0</span>
-              <span> Rs. 15000 </span>
+              <span> Rs. 1500 </span>
             </div>
             <input
               type="range"
               list="steplist"
               min="0"
-              max="15000"
-              step="100"
+              max="1500"
+              step="300"
               value={productState.priceRange}
               onChange={(e) =>
                 productDispatch({

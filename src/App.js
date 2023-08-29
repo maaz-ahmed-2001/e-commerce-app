@@ -7,6 +7,8 @@ import { Toaster } from "react-hot-toast";
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
+    const changeCurrency = document?.getElementById("price-label")?.innerHTML
+    console.log(changeCurrency)
   }, []);
 
   return (
